@@ -1,0 +1,224 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(28, 223, 223);
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+#right{
+  color: white;
+  background-color: black;
+  height: 100%;
+}
+#left{
+  background-color: #D0D0D0;
+  
+  height: 100%;
+}
+#profile{
+  /* background-color: purple; */
+  width: 100%;
+  height: 350px;
+}
+#profile img{
+  margin: 25px 10px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: rgb(241, 109, 234) 2px 5px 12px;
+}
+#contact{
+  margin-left: 20px;
+  text-align: left;
+  width: 100%;
+  /* background-color: coral; */
+}
+#contact h2{
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+#contact h3{
+  line-height: 1.2rem;
+  font-size: 16px;
+  font-weight: 500;
+}
+#call{
+  display: flex;
+}
+#call i{
+  margin-right: 10px;
+}
+#home{
+  display: flex;
+}
+#home i{
+  margin-right: 10px;
+}
+#website{
+  display: flex;
+}
+#website i{
+  margin-right: 10px;
+}
+#mail{
+  display: flex;
+}
+#mail i{
+  margin-right: 10px;
+}
+
+#personal-skills{
+  margin-left: 20px;
+  text-align: left;
+  width: 100%;
+  /* background-color: coral; */
+  display: flex;
+}
+#Personal-skills-h2{
+  margin-left: 20px;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+#ps-text{
+  width: 30%;
+  /* background-color: firebrick; */
+}
+#ps-circles{
+  width: 70%;
+  /* background-color: firebrick; */
+  justify-content: center;
+  align-items: center;
+}
+#forEnglish{
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+#forGerman{
+  margin-bottom: 5px;
+}
+#forSpanish{
+  margin-bottom: 5px;
+}
+#forBritish{
+  margin-bottom: 5px;
+}
+#personal-skills h2{
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+#personal-skills h3{
+  margin: 5px 10px;
+  line-height: 1.2rem;
+  font-size: 16px;
+  font-weight: 500;
+}
+.ri-circle-line {
+  margin-right: 5px; /* Adjust the value as needed */
+}
+.black{
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  color: black;
+  background-color: rgb(0, 0, 0);
+}
+.green{
+  width: 5px;
+  height: 5px;
+  color: green;
+  border-radius: 50%;
+  background-color: green;
+}
+#hobbies{
+  margin-left: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  /* background-color: blueviolet; */
+}
+#hobbies #hobbies-top{
+    padding: 20px;
+    /* background-color: dodgerblue; */
+    font-size: 50px;
+    
+}
+#hobbies-top{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#hobbies-bottom{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#hobbies #hobbies-bottom{
+  /* background-color: dodgerblue; */
+  font-size: 50px;
+  padding: 20px;
+}
+#hobbies h1{
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+#name{
+  width: 100%;
+  padding: 25px;
+}
+#name h1{
+  color: #9AC245;
+  margin-top: 40px;
+  margin-bottom: 2px;
+}
+#name h4{
+  color: white;
+  font-weight: 450;
+}
+#education{
+  width: 100%;
+  padding: 25px;
+}
+#about{
+  width: 100%;
+  padding: 25px;
+}
+#about p{
+  margin-top: 20px;
+  line-height: 1.2rem;
+}
+#projects{
+  width: 100%;
+  padding: 25px;
+}
+button{
+  margin: -25px;
+  font-size: 25px;
+  font-weight: 400;
+  width: 150px;
+  height: 30px;
+  color: black;
+  background-color: #9AC245;
+  border: none;
+
+}
+#education ul{
+  margin-top: 20px;
+} 
+ul li{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
